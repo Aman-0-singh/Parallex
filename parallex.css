@@ -20,15 +20,15 @@ body,html{
 }
 
 .pimg1{
-    background-image: url(image1.jpg);
+    background-image: url("images/image1.jpg");
     min-height: 100%;
 }
 .pimg2{
-    background-image: url(image2.jpg);
+    background-image: url("images/image2.jpg");
     min-height: 400px;
 }
 .pimg3{
-    background-image: url(image3.jpg);
+    background-image: url("images/image3.jpg");
     min-height: 400px;
 }
 .ptext{
@@ -58,13 +58,14 @@ body,html{
     background-color: #f4f4f4;
     color: #666;
 }
+
 .section-dark{
     background-color: #282e34;
     color: #ddd;
 }
+
 @media (width:568px) {
     .pimg1, .pimg2,.pimg3{
         background-attachment: scroll;
     }
-    
 }
